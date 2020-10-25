@@ -1,0 +1,33 @@
+table {
+  margin-top: 50px;
+  border-style: solid;
+  background-color: #023e8a;
+  border: 1px solid cadetblue;
+  border-radius: 20px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 5px 5px 5px 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.resultButton {
+  border: 2px solid white;
+  width: 200px;
+  background-color: dodgerblue;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.resultButton:active {
+  border-color: purple;
+}
